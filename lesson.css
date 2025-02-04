@@ -1,0 +1,82 @@
+.button1 {
+  button {
+    background: black;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+  }
+}
+.button2 {
+   button {
+    background: rgb(255, 216, 20);
+    color: rgb(0, 0, 0);
+    padding: 10px 50px;
+    font-size: 20px;
+    border-radius: 30px;
+    border: none;
+  }
+}
+.button3 {
+  button {
+    background: rgb(46, 164, 79);
+    color: white;
+    padding: 10px 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+  }
+}
+.button4{
+    background: rgb(121, 82, 179);
+    color: white;
+    padding: 20px 40px;
+    font-size: 20px;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+}
+.button5{
+  background: rgb(255, 255, 255);
+  color: rgb(110, 110, 110);
+  padding: 20px 40px;
+  font-size: 20px;
+  border-radius: 10px;
+  border-color: rgb(183, 183, 183);
+  cursor: pointer;
+}
+.button6{
+  background: rgb(10, 102, 194);
+  color: white;
+  padding: 10px 50px;
+  font-size: 20px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+}
+.button7{
+  background: white;
+  color: rgb(10, 102, 194);
+  padding: 10px 30px;
+  font-size: 20px;
+  border-radius: 50px;
+  border-color:rgb(10, 102, 194);
+  cursor: pointer;
+}
+.button8{
+  background: rgb(255, 213, 0);
+  padding: 10px 40px;
+  font-size: 20px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+}
+.button9{
+  background: rgb(255, 132, 0);
+  padding: 10px  40px;
+  font-size: 20px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+}
