@@ -11,7 +11,6 @@
     .img2 {
       width: 200px;
       height: 200px;
-
       object-fit: cover;
     }
     .img3 {
@@ -24,6 +23,76 @@
       padding: 10px;
       border-radius: 10px;
       border-color: rgba(134, 134, 134, 0.374);
+    }
+    .search-container {
+      background: white;
+      align-items: center;
+      margin: 0px 50px 0px 0px;
+      padding: 10px;
+      border-radius: 30px;
+      box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.375);
+    }
+
+    .search-input {
+      border: none;
+      outline: none;
+      font-size: 14px;
+      padding: 5px;
+      width: 250px;
+    }
+    .text1 {
+      font-family: arial;
+      color: rgba(0, 0, 0, 0.464);
+      font-size: 15px;
+    }
+    .search-bar{
+      margin: 6px 0px 15px 0px;
+      padding: 10px 80px;
+      border-color: rgba(0, 0, 0, 0.797);
+      border-radius: 3px
+    }
+    .text2 {
+      font-family: arial;
+      font-size: 13px;
+      color: rgba(0, 0, 0, 0.696);
+    }
+    .button1 {
+      background-color: rgb(20, 102, 196);
+      color: white;
+      border: none;
+      border-radius: 50px;
+      align-items: center;
+      padding: 15px 115px;
+      font-family: arial;
+      font-size: 17px;
+      margin: 15px 0px 
+    }
+    .img4 {
+      width: 50px;
+      height: 50px;
+      position: absolute;
+      object-fit: cover;
+      border-radius: 100%;
+    }
+    .tb2 {
+      border: none;
+      outline: none;
+      font-size: 16px;
+      padding: 8px;
+      margin-bottom: 10px;
+      margin: 7px 60px;
+    }
+    .button2 {
+      background: #1DA1F2;
+      color: white;
+      border: none;
+      padding: 8px 15px;
+      font-size: 16px;
+      border-radius: 20px;
+      cursor: pointer;
+    }
+    .button2:hover {
+      background: #0d8bf0;
     }
   </style>
 </head>
@@ -47,6 +116,27 @@
   <h3>
     7e.
   </h3>
-  <input type="text" class="tb2" placeholder="Search Google or type a URL">
+    <div class="search-container">
+        <input type="text" placeholder="Search Google or type a URL" class="search-input">
+    </div>
+  <h3>
+    7f.
+  </h3>
+  <span class="text1">Email</span>
+  <div>
+    <input type="text" class="search-bar" placeholder="">
+  </div>
+  <span class="text2">By clicking Agree & Join, you agree to the Privacy Policy</span>
+  <div>
+    <button class="button1">Agree & Join</button>
+  </div>
+  <h3>
+    7g.
+  </h3>
+  <div>
+    <img src="Ivan.jpg" alt="ivan" class="img4">
+    <input type="text" class="tb2" placeholder="What's happening?">
+    <button class="button2">Tweet</button>
+  </div>
 </body>
 </html>
